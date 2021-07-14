@@ -1,0 +1,26 @@
+.basketproducts{
+    width: 300px;
+    height: 300px;
+    box-shadow: 1px 1px 1px 4px white;
+    padding: 10px;
+    margin: 50px auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+.btn-remove{
+    padding: 5px;
+    background-color: red;
+    color: white;
+    border:none;
+    border-radius: 5px;
+}
+.btn-remove:hover{
+    background-color: purple;
+}

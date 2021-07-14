@@ -1,0 +1,10 @@
+.hesap{
+    width: 100%;
+    height: 100vh;
+    background-color: skyblue;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}

@@ -1,0 +1,18 @@
+.error{
+    background-color:skyblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 90.4vh;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    padding: 10px;
+    background-color: purple;
+    color: yellow;
+    margin-top: 10px;
+    border: none;
+    outline:none;
+    border-radius: 5px;
+}

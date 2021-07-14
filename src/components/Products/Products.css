@@ -1,0 +1,28 @@
+.products_space{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    box-shadow: 0px 0px 0px 1px #DADADA;
+    margin: 10px ;
+}
+.products_space:hover{
+    box-shadow: 0px 0px 0px 3px #DADADA;
+}
+.products{
+    width: 120px;
+    object-fit: contain;
+}
+.btn{
+    padding: 5px 10px;
+    background-color: #F0C14B;
+    outline: none;
+    border-radius: 5px;
+    transition: .2s ease-in-out;
+    border: none;
+}
+.btn:hover{
+    transform: scale(0.9);
+}
